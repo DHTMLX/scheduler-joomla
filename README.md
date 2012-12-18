@@ -1,0 +1,1 @@
+# dhtmlxScheduler Joomla plugin
