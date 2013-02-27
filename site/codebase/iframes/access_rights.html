@@ -36,7 +36,10 @@
 			td.innerHTML = '<input type="checkbox" name="access_' + id + '_edit" id="access_' + id + '_edit" class="dhtmlxInputCheckbox" serialize="true" />';
 			tr.appendChild(td);
 
-			table.firstChild.appendChild(tr);
+            if (table.firstChild && table.firstChild.tagName !== undefined)
+                table.firstChild.appendChild(tr);
+            else
+                table.appendChild(tr);
 		}
 
 		var els = document.getElementsByTagName('*');
