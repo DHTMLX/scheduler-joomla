@@ -1,8 +1,8 @@
 scheduler.locale = {
 	date: {
-		month_full: ["Ocak", "Þubat", "Mart", "Nisan", "Mayýs", "Haziran", "Temmuz", "Aðustos", "Eylül", "Ekim", "Kasým", "Aralýk"],
-		month_short: ["Oca", "Þub", "Mar", "Nis", "May", "Haz", "Tem", "Aðu", "Eyl", "Eki", "Kas", "Ara"],
-		day_full: ["Pazar", "Pazartes,", "Salý", "Çarþamba", "Perþembe", "Cuma", "Cumartesi"],
+		month_full: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+		month_short: ["Oca", "şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
+		day_full: ["Pazar", "Pazartes,", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
 		day_short: ["Paz", "Pts", "Sal", "Çar", "Per", "Cum", "Cts"]
 	},
 	labels: {
@@ -12,19 +12,19 @@ scheduler.locale = {
 		month_tab: "Ay",
 		new_event: "Uygun",
 		icon_save: "Kaydet",
-		icon_cancel: "Ýptal",
+		icon_cancel: "İptal",
 		icon_details: "Detaylar",
 		icon_edit: "Düzenle",
 		icon_delete: "Sil",
 		confirm_closing: "", //Your changes will be lost, are your sure ?
 		confirm_deleting: "Etkinlik silinecek, devam?",
-		section_description: "Açýklama",
-		section_time: "Zaman aralýðý",
+		section_description: "Açıklama",
+		section_time: "Zaman aralığ",
 		full_day: "Tam gün",
 
 		/*recurring events*/
 		confirm_recurring: "Tüm tekrar eden etkinlikler silinecek, devam?",
-		section_recurring: "Etkinliði tekrarla",
+		section_recurring: "Etkinliği tekrarla",
 		button_recurring: "Pasif",
 		button_recurring_open: "Aktif",
 		button_edit_series: "Dizi düzenleme",
@@ -33,10 +33,10 @@ scheduler.locale = {
 		/*agenda view extension*/
 		agenda_tab: "Ajanda",
 		date: "Tarih",
-		description: "Açýklama",
+		description: "Açıklama",
 
 		/*year view extension*/
-		year_tab: "Yýl",
+		year_tab: "Yıl",
 
 		/*week agenda view extension*/
 		week_agenda_tab: "Ajanda",
